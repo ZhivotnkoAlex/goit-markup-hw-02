@@ -18,6 +18,10 @@
     color: var(--main-color);
 }
 
+.header {
+    background-color: var(--secondary-background-color);
+}
+
 .logo {
     color: #000000
 }
@@ -88,4 +92,18 @@
 
 .copyright {
     color: rgba(255, 255, 255, 0.4);
+}
+
+.portfolio-filter>li {
+    background-color: var(--secondary-background-color);
+}
+
+.portfolio-filter>li:hover,
+.portfolio-filter>li:focus {
+    background-color: var(--accent-primary-color);
+    color: var(--accent-secondary-color);
+}
+
+.portfolio-projects p {
+    color: var(--secondary-color);
 }
