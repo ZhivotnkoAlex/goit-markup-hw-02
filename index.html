@@ -5,19 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body class="body">
     <header class="header">
-        <p class="logo"> <span class="logo-color">Web</span> Studio</p>
-        <ul>
-            <li class="site-nav-accent">Студия</li>
-            <li>
-                <a href="./portfolio.html">Портфолио</a>
-            </li>
-            <li>Контакты</li>
-        </ul>
+        <p class="header-logo"> <span class="logo-color">Web</span> Studio</p>
+        <nav>
+            <ul class="site-nav-accent">
+                <li>Студия</li>
+                <li>
+                    <a href="./portfolio.html">Портфолио</a>
+                </li>
+                <li>Контакты</li>
+            </ul>
+        </nav>
 
         <a href="" aria-label="конверт" class="header-accent header-link"></a>
         <a href="mailto:info@devstudio.com" class="header-accent header-link"> info@devstudio.com</a>
@@ -28,7 +31,7 @@
         <!-- Герой -->
         <section>
             <H1 class="hero-text">эффективные решения для вашего бизнеса</H1>
-            <a href="http://-" class="button">Заказать услугу</a>
+            <button class="button">Заказать услугу</button>
         </section>
         <!-- Описание ценностей -->
         <section>
@@ -157,7 +160,7 @@
         </section>
         <!-- клиенты -->
         <section>
-            <h2>Постоянные клиенты</h2>
+            <h2 class="clients">Постоянные клиенты</h2>
             <ul>
                 <li>
                     <a href="" aria-label="клиент1"></a>
@@ -186,7 +189,7 @@
         <div>
             <p class="logo-color"> <span class="footer-logo">Web</span> Studio</p>
             <address class="footer-address">
-                    г. Киев, пр-т Леси Украинки, 26
+                   <p> г. Киев, пр-т Леси Украинки, 26</p>
                     <a href="mailto:info@example.com">info@example.com</a>
                     <a href="tel:380961111111">+38 096 111 11 11</a>
             </address>
@@ -213,12 +216,14 @@
         <div class="footer-submit">
             <b> подписаться на рассылку</b>
             <ul>
-                <li><input type="text" class="footer-input"> </li>
+                <li class="footer-input-descr"><input type="text" class="footer-input"> E-mail
+                </li>
                 <li><button class="button">Подписаться</button></li>
             </ul>
         </div>
 
         <p class="copyright">2020 | Developed by GoIT Students</p>
+
     </footer>
 </body>
 

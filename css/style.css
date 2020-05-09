@@ -14,23 +14,39 @@
 }
 
 .body {
-    background-color: var(--main-background-color);
     color: var(--main-color);
+    font-family: "Roboto", sans-serif;
+    background-color: var(--main-background-color);
 }
 
 .header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
     background-color: var(--secondary-background-color);
 }
 
 .header-logo {
-    color: #000000
+    color: #000000;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
 }
 
 .logo-color {
     color: #2196F3;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
 }
 
-.site-nav-accent {
+.site-nav-accent>li:hover,
+.site-nav-accent>li:focus {
     color: var(--accent-primary-color);
 }
 
@@ -41,29 +57,98 @@
 
 .header-link {
     color: var(--secondary-color);
+    text-decoration: none;
 }
 
 .hero-text {
     color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     background-color: rgba(47, 48, 58, 0.8);
 }
 
 .button {
     color: var(--button-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     background-color: var(--button-background);
 }
 
 .values p {
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.values h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.specialization h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .specialization p {
     color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     background-color: rgba(47, 48, 58, 0.8);
+}
+
+.team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team p {
     color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 1.19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.clients {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .footer {
@@ -76,18 +161,42 @@
 
 .footer-address {
     color: #ffffff;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
 }
 
 .footer-address>a {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 .footer-join>b {
     color: var(--third-turn-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-submit>b {
     color: var(--third-turn-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-input-descr {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
 }
 
 .footer-input {
@@ -98,14 +207,26 @@
     color: rgba(255, 255, 255, 0.4);
 }
 
-.portfolio-filter>li {
+.portfolio-filter button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
     background-color: var(--secondary-background-color);
 }
 
-.portfolio-filter>li:hover,
-.portfolio-filter>li:focus {
+.portfolio-filter button:hover,
+.portfolio-filter button:focus {
     background-color: var(--accent-primary-color);
     color: var(--accent-secondary-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .portfolio-projects p {
